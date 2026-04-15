@@ -120,9 +120,9 @@ To prevent overfitting and reduce unnecessary computation:
 
 ## Results & Model Selection
 
-* The tuner identifies the **best-performing hyperparameter configuration**
-* The optimal model is retrieved and trained further
-* Final performance is evaluated using validation accuracy
+* The tuner identifies the **best-performing hyperparameter configuration**.
+* The optimal model is retrieved and trained further.
+* Final performance is evaluated using validation accuracy, demonstrating the effectiveness of the optimized hyperparameter configuration.
 
 The result is a model that achieves improved performance compared to arbitrary or manually selected configurations.
 
@@ -157,6 +157,6 @@ The result is a model that achieves improved performance compared to arbitrary o
 
 ---
 
-## 📎 Conclusion
+## Conclusion
 
 This project presents a structured and scalable approach to hyperparameter optimization in deep learning. By combining **Keras Tuner**, **Bayesian Optimization**, and a flexible model-building pipeline, it demonstrates how systematic tuning can lead to better-performing and more robust neural networks.
