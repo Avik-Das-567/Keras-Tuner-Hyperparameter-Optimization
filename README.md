@@ -1,14 +1,5 @@
 # Hyperparameter Optimization with Keras Tuner
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
-![Keras Tuner](https://img.shields.io/badge/Keras%20Tuner-Hyperparameter%20Optimization-purple)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
-
----
-
 ## 📌 Overview
 
 This project demonstrates end-to-end hyperparameter optimization of a deep learning model using **Keras Tuner**. The workflow focuses on systematically improving model performance on the **Fashion MNIST dataset** by exploring a well-defined hyperparameter search space and leveraging **Bayesian Optimization**.
