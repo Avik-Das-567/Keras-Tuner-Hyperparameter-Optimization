@@ -124,7 +124,7 @@ To prevent overfitting and reduce unnecessary computation:
 * The optimal model is retrieved and trained further.
 * Final performance is evaluated using validation accuracy, demonstrating the effectiveness of the optimized hyperparameter configuration.
 
-The result is a model that achieves improved performance compared to arbitrary or manually selected configurations.
+The resulting model achieves improved performance compared to baseline or manually selected configurations.
 
 ---
 
@@ -133,7 +133,7 @@ The result is a model that achieves improved performance compared to arbitrary o
 * Dynamic model creation using a hypermodel function
 * Integration of **Keras Tuner** with TensorFlow/Keras
 * Use of **Bayesian Optimization** for efficient search
-* Custom tuner implementation for enhanced flexibility
+* Custom tuner implementation for enhanced flexibility and control over the tuning process
 * Regularization via dropout
 * Controlled training using callbacks
 
