@@ -1,14 +1,12 @@
 # Hyperparameter Optimization with Keras Tuner
 
-## 📌 Overview
-
 This project demonstrates end-to-end hyperparameter optimization of a deep learning model using **Keras Tuner**. The workflow focuses on systematically improving model performance on the **Fashion MNIST dataset** by exploring a well-defined hyperparameter search space and leveraging **Bayesian Optimization**.
 
 The implementation goes beyond basic tuning by incorporating a **custom model-building pipeline**, structured search strategies, and controlled training using callbacks.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The primary goal of this project is to:
 
@@ -19,7 +17,7 @@ The primary goal of this project is to:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The project uses the **Fashion MNIST dataset**, a widely used benchmark dataset for image classification.
 
@@ -31,7 +29,7 @@ The dataset is preprocessed and normalized before being fed into the model.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 A flexible neural network architecture is defined using a **model-building function**, enabling dynamic configuration of hyperparameters during tuning.
 
@@ -47,21 +45,21 @@ The architecture is not fixed — it is dynamically constructed based on hyperpa
 
 ---
 
-## ⚙️ Hyperparameters Tuned
+## Hyperparameters Tuned
 
 The following hyperparameters are explored during the search process:
 
-### 🔹 Architectural Parameters
+### Architectural Parameters
 
 * Number of hidden layers
 * Number of units in each layer
 * Dropout rate
 
-### 🔹 Optimization Parameters
+### Optimization Parameters
 
 * Learning rate
 
-### 🔹 Training Parameters
+### Training Parameters
 
 * Batch size (handled through custom tuning logic)
 
@@ -69,7 +67,7 @@ This combination allows both **model complexity** and **training dynamics** to b
 
 ---
 
-## 🔍 Hyperparameter Optimization Strategy
+## Hyperparameter Optimization Strategy
 
 ### Bayesian Optimization
 
@@ -89,7 +87,7 @@ A customized tuner class is implemented to:
 
 ---
 
-## 🏋️ Training Workflow
+## Training Workflow
 
 ### 1. Data Preparation
 
@@ -120,7 +118,7 @@ To prevent overfitting and reduce unnecessary computation:
 
 ---
 
-## 📊 Results & Model Selection
+## Results & Model Selection
 
 * The tuner identifies the **best-performing hyperparameter configuration**
 * The optimal model is retrieved and trained further
@@ -130,7 +128,7 @@ The result is a model that achieves improved performance compared to arbitrary o
 
 ---
 
-## 🧩 Key Features of the Project
+## Key Features of the Project
 
 * Dynamic model creation using a hypermodel function
 * Integration of **Keras Tuner** with TensorFlow/Keras
@@ -141,7 +139,7 @@ The result is a model that achieves improved performance compared to arbitrary o
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * TensorFlow / Keras
@@ -150,7 +148,7 @@ The result is a model that achieves improved performance compared to arbitrary o
 
 ---
 
-## 📈 Key Takeaways
+## Key Takeaways
 
 * Hyperparameter optimization significantly improves model performance
 * Bayesian Optimization provides a more efficient alternative to brute-force search
