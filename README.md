@@ -51,6 +51,8 @@ Two notebook-defined interfaces drive the project:
 
 ```python
 create_model(hp)
+```
+```python
 CustomTuner.run_trial(self, trial, *args, **kwargs)
 ```
 
