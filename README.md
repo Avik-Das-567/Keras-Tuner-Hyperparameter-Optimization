@@ -1,7 +1,5 @@
 # Hyperparameter Tuning with Keras Tuner
 
-## Overview
-
 This project uses Keras Tuner with TensorFlow/Keras to optimize a neural network for Fashion MNIST image classification. The notebook walks through the full tuning workflow: loading and inspecting the dataset, defining a tunable model factory, extending Keras Tuner with a custom Bayesian optimization tuner that also searches over batch size, and retraining the best discovered configuration with early stopping.
 
 The implementation is centered on a lightweight fully connected architecture for grayscale clothing-image classification. Rather than fixing architecture and training settings upfront, the notebook treats both network design choices and a training-time parameter as search variables, making the experiment a compact example of practical hyperparameter optimization in Keras.
@@ -30,9 +28,9 @@ The notebook verifies the training tensor shape as `(60000, 28, 28)` and visuali
 - NumPy
 - Matplotlib
 
-## Notebook Workflow
+## Project Workflow
 
-The notebook follows a clear experiment pipeline:
+The project follows a clear experiment pipeline:
 
 1. Install `keras-tuner`.
 2. Import TensorFlow, Keras Tuner, Matplotlib, and NumPy.
